@@ -42,14 +42,14 @@
    * NIL
 
 5) Write a function, sequence, that takes a single integer as input and prints out a list containing that many terms of the thesequence defined by:
-   * Sn = 
-    * 0 if n = 1
-    * 1 if n = 2
-    * 2Sn-1 + Sn-2 if n > 2
+ * Sn = 
+  * 0 if n = 1
+  * 1 if n = 2
+  * 2Sn-1 + Sn-2 if n > 2
 * Sample execution:
- * (sequence 7)
+   * (sequence 7)
 * Returns: 
-  * (0 1 2 5 12 29 70)
+   * (0 1 2 5 12 29 70)
 
 6) Write a function, permutations, that takes a list as input and generates a list containing all possible permutations of the list elements.  Here is a sample application:
  * Sample execution:

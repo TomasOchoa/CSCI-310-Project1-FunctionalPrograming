@@ -43,21 +43,19 @@
 
 5) Write a function, sequence, that takes a single integer as input and prints out a list containing that many terms of the thesequence defined by:
    * Sn = 
-      * 0 if n = 1
-      * 1 if n = 2
-      * 2Sn-1 + Sn-2 if n > 2
-
-
-    * Sample execution:
-        * (sequence 7)
-    * Returns: 
-        * (0 1 2 5 12 29 70)
+    * 0 if n = 1
+    * 1 if n = 2
+    * 2Sn-1 + Sn-2 if n > 2
+* Sample execution:
+ * (sequence 7)
+* Returns: 
+  * (0 1 2 5 12 29 70)
 
 6) Write a function, permutations, that takes a list as input and generates a list containing all possible permutations of the list elements.  Here is a sample application:
-    * Sample execution:
-        * (permutations (quote (1 2 3)))
-    * Returns: 
-        * ((1 2 3) (1 3 2) (2 1 3) (2 3 1) (3 1 2) (3 2 1))
+ * Sample execution:
+  * (permutations (quote (1 2 3)))
+ * Returns: 
+  * ((1 2 3) (1 3 2) (2 1 3) (2 3 1) (3 1 2) (3 2 1))
 
 7) Write a program to argue with yourself.  Your program should take statements that are typed in as a list and change the pronouns and negate the verbs.  For instance, you should change to I, are should change to am not, and so on. 
     * Sample execution:

@@ -4,6 +4,7 @@
 * Programming done from a functional point of view using Common Lisp.
 * For this assignment, allowed to use car, cdr, cons, cond, defun, mapcar, load, append, listp, print, format, trace, eq, equal, null, zerop, atom and list.  Anything else you need, you should include code for in your program file 
 ### Problems : 
+
 1) Write a function, hlbackwards, that takes a list of s-expressions as input, and returns a list in which the order of the elements of the list is reversed.  Note that this function should only work on the elements of the list and not of anysublists!  
     * Sample execution:
         * (hlbackwards (quote (a (b c) ((d e (f) g) h i))))
@@ -37,8 +38,8 @@
         * NIL
 
 5) Write a function, sequence, that takes a single integer as input and prints out a list containing that many terms of the thesequence defined by:
-    - Sn = 
-        - 0 if n = 1
+    * Sn = 
+    *0 if n = 1
         - 1 if n = 2
         - 2Sn-1 + Sn-2 if n > 2
     * Sample execution:
@@ -50,7 +51,7 @@
         * (permutations (quote (1 2 3)))
     * Returns: 
         * ((1 2 3) (1 3 2) (2 1 3) (2 3 1) (3 1 2) (3 2 1))
-7) .    Write a program to argue with yourself.  Your program should take statements that are typed in as a list and change the pronouns and negate the verbs.  For instance, you should change to I, are should change to am not, and so on. 
+7) Write a program to argue with yourself.  Your program should take statements that are typed in as a list and change the pronouns and negate the verbs.  For instance, you should change to I, are should change to am not, and so on. 
     * Sample execution:
         * (argue (quote (you are a stupid computer)))
     * Returns: 

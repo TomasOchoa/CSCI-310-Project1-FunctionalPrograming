@@ -43,9 +43,10 @@
 
 5) Write a function, sequence, that takes a single integer as input and prints out a list containing that many terms of the thesequence defined by:
  * Sn = 
-  * 0 if n = 1
-  * 1 if n = 2
-  * 2Sn-1 + Sn-2 if n > 2
+    * 0 if n = 1
+    * 1 if n = 2
+    * 2Sn-1 + Sn-2 if n > 2
+ 
 * Sample execution:
    * (sequence 7)
 * Returns: 

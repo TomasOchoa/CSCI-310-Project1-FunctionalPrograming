@@ -7,10 +7,10 @@
 
 ### Problems : 
 1) Write a function, hlbackwards, that takes a list of s-expressions as input, and returns a list in which the order of the elements of the list is reversed.  Note that this function should only work on the elements of the list and not of anysublists!  
-    * Sample execution:
-        * (hlbackwards (quote (a (b c) ((d e (f) g) h i))))
-    * Returns: 
-        * (((d e (f) g) h i) (b c) a)
+   * Sample execution:
+      * (hlbackwards (quote (a (b c) ((d e (f) g) h i))))
+   * Returns: 
+      * (((d e (f) g) h i) (b c) a)
 
 2) Write a function, llbackwards, that takes a list of s-expressions as input, and returns a list in which the elements of every list and sublist are in reverse order.
     * Sample execution:

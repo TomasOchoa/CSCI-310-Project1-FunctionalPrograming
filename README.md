@@ -29,17 +29,17 @@
     * T
 
 4) Write a function, ionah, that takes a single number as input and prints out the solution to the inverted disk  problem for that many disks.  This is the problem of moving a stack of k disks of increasing size from bottom to top, from the first peg to the third peg with another peg that may be used as well, subject to the condition that a smaller disk is never put on top of a larger one, and only one disk may be moved at a time.  
-    * Sample execution:
-        * (ionah 3)
-    * Returns: 
-        * move disk from peg 1 to peg 3
-        * move disk from peg 1 to peg 2
-        * move disk from peg 3 to peg 2
-        * move disk from peg 1 to peg 3
-        * move disk from peg 2 to peg 1
-        * move disk from peg 2 to peg 3
-        * move disk from peg 1 to peg 3
-        * NIL
+  * Sample execution:
+   * (ionah 3)
+ * Returns: 
+  * move disk from peg 1 to peg 3
+  * move disk from peg 1 to peg 2
+  * move disk from peg 3 to peg 2
+  * move disk from peg 1 to peg 3
+  * move disk from peg 2 to peg 1
+  * move disk from peg 2 to peg 3
+  * move disk from peg 1 to peg 3
+  * NIL
 
 5) Write a function, sequence, that takes a single integer as input and prints out a list containing that many terms of the thesequence defined by:
    * Sn = 

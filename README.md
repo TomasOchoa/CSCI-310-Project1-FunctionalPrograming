@@ -58,34 +58,34 @@
  * Returns: 
   * ((1 2 3) (1 3 2) (2 1 3) (2 3 1) (3 1 2) (3 2 1))
 
-7) Write a program to argue with yourself.  Your program should take statements that are typed in as a list and change the pronouns and negate the verbs.  For instance, you should change to I, are should change to am not, and so on. 
-    * Sample execution:
-        * (argue (quote (you are a stupid computer)))
-    * Returns: 
-        * (I am not a stupid computer)
-    * Sample execution:
-        * (argue (quote (you are)))
-    * Returns:
-        * (I am not)
-    * Sample execution:
-        * (argue (quote (are)))
-    * Returns:
-        * (am not)
-    * Sample execution:
-        * (argue (quote (I am a smart human)))
-    * Returns:
-        * (you are not a smart human)
-    * Sample execution:
-        * (argue (quote (your mother does wear army boots)))
-    * Returns:
-        * (my mother does not wear army boots))
-    * Sample execution:
-        * (argue (quote (you are argumentative)))
-    * Returns: 
-        * (I am not argumentative)
+7) Write a program to argue with yourself.  Your program should take statements that are typed in as a list and change the pronouns and negate the verbs.  For instance, you should change to I, are should change to am not, and so on
+* Sample execution:
+  * (argue (quote (you are a stupid computer)))
+* Returns: 
+  * (I am not a stupid computer)
+* Sample execution:
+  * (argue (quote (you are)))
+* Returns:
+  * (I am not)
+* Sample execution:
+  * (argue (quote (are)))
+* Returns:
+  * (am not)
+* Sample execution:
+  * (argue (quote (I am a smart human)))
+* Returns:
+  * (you are not a smart human)
+* Sample execution:
+  * (argue (quote (your mother does wear army boots)))
+* Returns:
+  * (my mother does not wear army boots))
+* Sample execution:
+  * (argue (quote (you are argumentative)))
+* Returns: 
+  * (I am not argumentative)
 
 8) Write a program bubblesort that takes a list of numbers and returns the list in sorted order.
-    * Sample execution:
-        * (bubblesort (quote (1 4 2 8 5 7)))
-    * Returns: 
-        * (1 2 4 5 7 8)
+ * Sample execution:
+   * (bubblesort (quote (1 4 2 8 5 7)))
+ * Returns: 
+   * (1 2 4 5 7 8)
